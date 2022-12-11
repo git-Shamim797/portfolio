@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>     
+<title>Portfolio</title>
+</head>
+<body onload="home()">
+    <div class="container">
+        <div class="nav-bar">
+            <div class="logo">
+                <h2>Port<span>folio</span></h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="active" onclick="home()">Home</a></li>
+                    <li><a onclick="about()">About</a></li>
+                    <li><a onclick="service()">Services</a></li>
+                    <li><a onclick="blog()">Blog</a></li>
+                    <li><a onclick="resume()">Resume</a></li>
+                    <li><a onclick="work()">Work</a></li>
+                    <li><a onclick="contact()">Contact</a></li>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="info">
+                <h2>Hi, My name is</h2>
+                <h1>Khan Shamim</h1>
+                <h2>and I'm a <span>Web Developer</span></h2>
+                <p id="extra"></p>
+                <button type="button">Hire Me</button>
+            </div>
+            <div class="content-img">
+                <img src="images/portfolioimg.png" alt="Image is here." height="500px" width="100px">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
