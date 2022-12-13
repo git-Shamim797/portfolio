@@ -16,7 +16,7 @@
         function resume()
 {
     document.getElementById("extra").innerHTML=
-    'Here is my <span>Resume</span><br>Click on <a href="resume.pdf"><span>Download</span></a>'
+    'Here is my <span>Resume</span><br>Click Here to <a href="resume.html"><span>View</span></a>'
 }
         function work()
 {
@@ -26,7 +26,7 @@
         function contact()
 {
     document.getElementById("extra").innerHTML=
-    'E-mail id :- <b><span>k.shamim000797@gmail.com</span></b><br>My social media  <a href="#"><b><span>Instagram</span></b></a><br> My contact no. <b><span>9372144047</span></b>'
+    'E-mail id :- <b><span>k.shamim000797@gmail.com</span></b><br>My social media  <a href="https://www.instagram.com/eohan.s/"><b><span>Instagram</span></b></a><br> My contact no. <b><span>9372144047</span></b>'
 }
         function blog()
         {

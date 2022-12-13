@@ -119,3 +119,9 @@ cursor: pointer;
     }
    
 }
+/* Resume style */
+.vl {
+    border-left: 6px solid rgb(43, 141, 180);
+    height: 500px;
+    padding-top: 100%;
+  }
