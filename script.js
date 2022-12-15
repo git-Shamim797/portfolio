@@ -33,3 +33,6 @@
             document.getElementById("extra").innerHTML=
     '<a href="https://dimensionparadise.blogspot.com/2022/02/privacy-policy-demo.html"><span>Blog</span></a> You can read my blogs here.'
         }
+        function hire(){
+            window.location.assign("https://www.instagram.com/eohan.s/");
+        }
